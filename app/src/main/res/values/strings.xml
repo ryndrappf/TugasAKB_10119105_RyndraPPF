@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TugasAKB_10119105_RyndraPPF</string>
+    <string name="aplikasi_komputasi_bergerak">Aplikasi Komputasi Bergerak</string>
+    <string name="login_activity">LOGIN</string>
+    <string name="username_activity">Masukkan Username</string>
+    <string name="password_activity">Masukkan Password</string>
+    <string name="register_activity">REGISTER</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="username_register">Username</string>
+    <string name="email_register">Email</string>
+    <string name="password_register">Password</string>
+    <string name="btn_register">Register</string>
+    <string name="profile_nim">NIM : 10119105</string>
+    <string name="profile_name">Nama : Ryndra Putra Pratama Firdaus</string>
+    <string name="profile_kelas">Kelas : IF-3</string>
+    <string name="profile_description">Saya adalah salah seorang mahasiswa Teknik Informatika. Seseorang yang selalu menghadapi masalah dengan ketawa. Seseorang yang masih belum bisa membahagiakan orang tua. Seseorang yang punya cita-cita setinggi langit. Seseorang yang selalu mengikuti arus kehidupan. Seseorang yang masih ingin mencari dirinya siapa.</string>
+</resources>

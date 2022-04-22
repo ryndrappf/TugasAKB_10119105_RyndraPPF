@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <LinearLayout
+        android:id="@+id/profile_basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profile_photo"
+            android:layout_marginTop="40dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ryndra"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:id="@+id/nim_profile_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="@string/profile_nim"/>
+        <TextView
+            android:id="@+id/name_profile_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="@string/profile_name"/>
+        <TextView
+            android:id="@+id/kelas_profile_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="@string/profile_kelas"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/profile_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/profile_basic"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="@string/profile_description"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/main_up"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#455FF3"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/main_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:onClick="toHome"
+                android:background="@drawable/home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:onClick="toHome"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/vertical" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="toProfile"
+                android:background="@drawable/profile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Profile"
+                android:onClick="toProfile"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
